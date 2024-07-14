@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fa7257, #fc63a7, #dd1264, #fddddb);
+  height: 100vh;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: roboto;
+}
+
+button {
+  color: #dd1264;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 170px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 90px;
+  padding: 10px;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 48px 108px;
+}
